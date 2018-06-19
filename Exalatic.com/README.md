@@ -25,7 +25,7 @@ Bootstrap3 <br>
 
 Designs & Prototypes:
 ---------------------
-![Exalatic](https://github.com/Sarvesh18/WebApp/blob/master/Exalatic.com/Exalatic.png)
+![Exalatic](https://github.com/Sarvesh18/Web-Design/blob/master/Exalatic.com/Exalatic.png)
 
 
 Get IN Touch 
