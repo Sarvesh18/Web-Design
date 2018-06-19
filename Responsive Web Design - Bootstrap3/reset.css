@@ -1,0 +1,285 @@
+@font-face {
+    font-family: font;
+    src: url(fonts/BebasNeue-webfont.woff);
+}
+
+@font-face {
+    font-family: font_bold;
+    src: url(fonts/ufonts.com_gotham-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: font_book;
+    src: url(fonts/ufonts.com_gotham-book-webfont.woff);
+}
+
+@font-face {
+    font-family: font_medium;
+    src: url(fonts/ufonts.com_gotham-medium-webfont.woff);
+}
+
+body {
+    margin: 0;
+}
+
+.br {
+    margin:0;
+    padding:0;
+    line-height: 0.5;
+}
+
+.heading_b {
+    font-family: font_bold;
+    color: rgb(58, 151, 177);
+    font-size:2.8em;
+}
+
+.heading_w {
+    font-family: font_bold;
+    color: rgb(58, 151, 177);
+    font-size:2.8em;
+}
+
+.text_b {
+    font-family: font_book;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin: 12px 0 12px 0;
+    /*letter-spacing: 1px;
+    line-height: 1.6;*/
+}
+
+.text_w {
+    font-family: font_book;
+    margin: 12px 0 12px 0;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    /*letter-spacing: 1px;
+    line-height: 1.6;*/
+}
+
+/*                                               NavBar                                                      */
+.header {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-inverse {
+    background-color: rgb(0, 0, 0); 
+}
+
+.navbar-brand img{
+    width:30px;
+}
+.navbar-nav {
+    padding: 20px 0 0 0;
+    font-family: font_bold;
+}
+
+.underline {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+/*                                               Intro                                                      */
+.intro {
+    margin: -20px 0 0 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.intro_image {
+    background-image: url(images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    background-position: right bottom;
+}
+.intro_container {
+    margin: 140px 0 180px 0;
+}
+.stronger {
+    color:rgb(255, 255, 255); 
+    font-size: 1.5em;
+    font-family: font_book;
+    /*letter-spacing: 1px;*/
+    line-height: 0.5;
+}
+.and_stronger {
+    color:rgb(255, 255, 255); 
+    font-size: 1.6em;
+    font-family: font_bold;;
+    /*letter-spacing: 1px;*/
+    line-height: 0.5;
+}
+.fitness {
+    color:rgb(58, 151, 177); 
+    font-size: 3em;
+    font-family: font_bold;
+    line-height: .8;
+}
+.nu {
+    color:rgb(58, 151, 177); 
+    font-size: 3.5em;
+    font-family: font_bold;
+    line-height: .8;
+}
+
+.get_started {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 0.5;
+    font-family: font_bold;
+}
+
+/*                                               Training                                                      */
+.train {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 35px 0 35px 0;
+}
+
+.train_img {
+    width:100%;
+}
+.play_img {
+    top: 38%;
+    left: 42%;
+    position: absolute;
+    /* For IE8 and earlier */
+}
+
+/*                                               Joining                                                      */
+.join {
+    background-color: rgb(0, 0, 0);
+    margin:0 auto;
+}
+
+.join_container {
+    margin: 100px 0 50px 0;
+}
+
+.join_image {
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255,255,255);
+    position: absolute;
+    height: 80%;
+    width: 120%;
+    top: 10%;
+    bottom: 10%;
+    right: 3%;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.form-control {
+    background-color: rgb(0, 0, 0);
+    border:none;
+    border-bottom: .5px solid rgb(255, 255, 255);
+    border-radius:0;
+}
+
+.join_button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 0.5;
+    font-family: font_bold;
+}
+
+/*                                               Results                                                      */
+.results {
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 35px 0 35px 0;
+}
+
+.hover_img {
+    display: block;
+}
+
+.hover_container:hover .hover_img {
+}
+
+.hover_detail {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* For IE8 and earlier */
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(58, 151, 177);
+}
+
+.hover_container:hover .hover_detail {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+}
+
+.detail {
+    top:40%;
+    left: 20%;
+    position: absolute;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: font_bold;
+}
+
+.slide_bottom {
+     position: absolute;
+     bottom:0; 
+     left:0;
+     width: 100%;
+}
+
+.hide_carousel {
+    display: block;
+}
+
+.show_carousel {
+    display: none;
+}
+
+.next {
+    position: absolute;
+    top: 40%;
+}
+.prev {
+    position: absolute;
+    top: 40%;
+}
+
+/*                                               Partners                                                      */
+.partners {
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 35px 0 35px 0;
+}
+
+.img_partner {
+    margin: 0 auto;
+    padding: 25px 0 15px 0;
+}
+
+/*                                                                                                             */
+@media (max-width: 768px) {
+    .detail {
+        left:35%;
+    }
+    .hide_carousel {
+        display: none;
+    }
+    .show_carousel {
+        display: block;
+    }
+    .join_container .heading_b {
+        float:right;
+    }
+    .join_container .text_b {
+        float:right;
+    }
+}
